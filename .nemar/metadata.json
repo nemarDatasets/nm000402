@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Multi-Expert Seizure Annotation",
+  "description": "Stereotactic EEG recordings from 78 seizures (44 spontaneous, 34 stimulation-induced) in 29 patients with drug-resistant epilepsy, recruited at the University of Pennsylvania and the Children's Hospital of Philadelphia. Three or five board-certified epileptologists independently annotated each seizure for onset time, onset channels, and channels seizing 10 seconds after onset, following a standardized protocol. The BIDS-formatted data include electrode localizations, patient demographics, and clinical outcomes. They support benchmarking of automated seizure onset and spread detection against expert performance, and comparison of seizure networks across spontaneous and stimulation-induced seizures.",
+  "methods_description": "Recordings were acquired with a Natus Quantum system at 512-2048 Hz using sEEG depth electrodes (Ad-Tech, PMT, or DIXI Medical), referenced to a contact in presumed non-epileptogenic tissue. Stimulation-induced seizures used bipolar biphasic stimulation (HUP: 1 Hz, 3 mA; CHOP: 1-8 mA, 1-2 Hz). Electrodes were localized by co-registering post-implant CT to pre-implant MRI (Gardel at CHOP, iEEG-recon at HUP) with Desikan-Killiany parcellation in FreeSurfer.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "William K. Ojemann": {
       "orcid": "0009-0007-5166-536X"
@@ -54,6 +59,30 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "stereotactic EEG"
+    },
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Seizures",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
+    },
+    {
+      "term": "seizure annotation"
+    },
+    {
+      "term": "electrical stimulation"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.64898/2026.01.15.26344025",
@@ -127,16 +156,19 @@
     {
       "funder_name": "National Institute of Neurological Disorders and Stroke",
       "award_number": "T32NS091008"
+    },
+    {
+      "funder_name": "Burroughs Wellcome Fund"
+    },
+    {
+      "funder_name": "Small Lake Foundation"
     }
   ],
-  "title": "Multi-Expert Seizure Annotation",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "7.95 GB (80 files)"
   ],
@@ -145,33 +177,8 @@
     ".jpg",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "Stereotactic EEG recordings of 78 seizures (44 spontaneous, 34 stimulation-induced) from 29 patients with drug-resistant epilepsy, recruited at the University of Pennsylvania and the Children's Hospital of Philadelphia. Three or five board-certified epileptologists independently annotated each seizure for onset time, onset channels, and channels seizing 10 seconds after onset, using a standardized protocol. The BIDS-formatted data include electrode localizations, patient demographics, and clinical outcomes. They support benchmarking of automated seizure onset and spread detection against expert performance, and comparison of seizure networks across spontaneous and stimulation-induced seizures.",
-  "methods_description": "Stereotactic EEG was recorded at 512-2048 Hz from patients with drug-resistant epilepsy during implant monitoring. Each seizure was independently annotated by three or five board-certified epileptologists for unequivocal electrographic onset time, onset channels, and channels seizing at 10 seconds post-onset. Consensus values were derived from these annotations. Data were organized in BIDS with MNE-BIDS.",
-  "keywords": [
-    {
-      "term": "stereotactic EEG"
-    },
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "Seizures",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
-    },
-    {
-      "term": "seizure annotation"
-    },
-    {
-      "term": "electrical stimulation"
-    }
-  ],
-  "source_hash": "33041b6eadddbe514f7f67bbc4df3bcd2c6d9ecae014cfe72649e92632e7902f"
+  "source_hash": "8aed7f2c9f2818c94a9a38dd715b625cc914935bab910710aaba4ca0440184fc"
 }
