@@ -1,0 +1,177 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "William K. Ojemann": {
+      "orcid": "0009-0007-5166-536X"
+    },
+    "Daniel Zhou": {},
+    "Caren Armstrong": {
+      "orcid": "0000-0001-8010-0850",
+      "affiliations": [
+        {
+          "name": "Department of Neurology, University of California, Davis, Sacramento, CA, 95817, USA"
+        },
+        {
+          "name": "Children’s Hospital of Philadelphia, Division of Neurology, Philadelphia, PA 19104, USA"
+        }
+      ]
+    },
+    "Nishant Sinha": {
+      "orcid": "0000-0002-2090-4889",
+      "affiliations": [
+        {
+          "name": "Center for Neuroengineering and Therapeutics, University of Pennsylvania, Philadelphia, PA 19104, USA"
+        },
+        {
+          "name": "Department of Neurology, University of Pennsylvania, Philadelphia, PA 19104, USA"
+        }
+      ]
+    },
+    "Brian Litt": {
+      "orcid": "0000-0003-2732-6927",
+      "affiliations": [
+        {
+          "name": "Center for Neuroengineering and Therapeutics, University of Pennsylvania, Philadelphia, PA 19104, USA"
+        },
+        {
+          "name": "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA"
+        },
+        {
+          "name": "Department of Neurology, University of Pennsylvania, Philadelphia, PA 19104, USA"
+        }
+      ]
+    },
+    "Erin Conrad": {
+      "orcid": "0000-0001-8910-1817",
+      "affiliations": [
+        {
+          "name": "Center for Neuroengineering and Therapeutics, University of Pennsylvania, Philadelphia, PA 19104, USA"
+        },
+        {
+          "name": "Department of Neurology, University of Pennsylvania, Philadelphia, PA 19104, USA"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.64898/2026.01.15.26344025",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.26275/dely-fzwx",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000402",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000402",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0105-7",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "The Burroughs Welcome Fund"
+    },
+    {
+      "funder_name": "The Small Lake Foundation"
+    },
+    {
+      "funder_name": "Neil and Barbara Smit"
+    },
+    {
+      "funder_name": "Bonnie and Jonathan Rothberg and Family"
+    },
+    {
+      "funder_name": "National Science Foundation",
+      "award_number": "DGE-1845298",
+      "award_title": "Graduate Research Fellowship"
+    },
+    {
+      "funder_name": "National Institute of Neurological Disorders and Stroke",
+      "award_number": "K99NS138680"
+    },
+    {
+      "funder_name": "National Institute of Neurological Disorders and Stroke",
+      "award_number": "K23NS121401"
+    },
+    {
+      "funder_name": "National Institute of Neurological Disorders and Stroke",
+      "award_number": "R01NS125137"
+    },
+    {
+      "funder_name": "National Institute of Neurological Disorders and Stroke",
+      "award_number": "R01NS116504"
+    },
+    {
+      "funder_name": "National Institute of Neurological Disorders and Stroke",
+      "award_number": "DP1NS122038"
+    },
+    {
+      "funder_name": "National Institute of Neurological Disorders and Stroke",
+      "award_number": "T32NS091008"
+    }
+  ],
+  "title": "Multi-Expert Seizure Annotation",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "7.95 GB (80 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".jpg",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "Stereotactic EEG recordings of 78 seizures (44 spontaneous, 34 stimulation-induced) from 29 patients with drug-resistant epilepsy, recruited at the University of Pennsylvania and the Children's Hospital of Philadelphia. Three or five board-certified epileptologists independently annotated each seizure for onset time, onset channels, and channels seizing 10 seconds after onset, using a standardized protocol. The BIDS-formatted data include electrode localizations, patient demographics, and clinical outcomes. They support benchmarking of automated seizure onset and spread detection against expert performance, and comparison of seizure networks across spontaneous and stimulation-induced seizures.",
+  "methods_description": "Stereotactic EEG was recorded at 512-2048 Hz from patients with drug-resistant epilepsy during implant monitoring. Each seizure was independently annotated by three or five board-certified epileptologists for unequivocal electrographic onset time, onset channels, and channels seizing at 10 seconds post-onset. Consensus values were derived from these annotations. Data were organized in BIDS with MNE-BIDS.",
+  "keywords": [
+    {
+      "term": "stereotactic EEG"
+    },
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Seizures",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
+    },
+    {
+      "term": "seizure annotation"
+    },
+    {
+      "term": "electrical stimulation"
+    }
+  ],
+  "source_hash": "33041b6eadddbe514f7f67bbc4df3bcd2c6d9ecae014cfe72649e92632e7902f"
+}
