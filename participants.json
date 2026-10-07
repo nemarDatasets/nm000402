@@ -54,5 +54,29 @@
     },
     "n_stim_induced": {
         "Description": "Number of seizures that were induced with low-frequency stimulation"
+    },
+    "diagnosis": {
+        "Description": "epilepsy (all subjects; drug-resistant epilepsy undergoing SEEG)",
+        "Source": "deposit dataset_description Keywords + participants.json"
+    },
+    "implant_type": {
+        "Description": "sEEG (all channels typed SEEG in channels.tsv / SEEGChannelCount in _ieeg.json)",
+        "Source": "deposit ses-postimplant/ieeg/*_ieeg.json"
+    },
+    "site": {
+        "Description": "Center inferred from subject code prefix as described in annotations.json (\"adult (HUP) or pediatric (CHOP) center\")",
+        "Source": "https://discover.pennsieve.io/datasets/530/version/3 files/DATA/annotations.json patient"
+    },
+    "n_contacts": {
+        "Description": "Number of rows (contacts) in the subject derivatives/electrodes.tsv",
+        "Source": "https://discover.pennsieve.io/datasets/530/version/3 files/DATA/sub-*/derivatives/electrodes.tsv (counted)"
+    },
+    "implanted_hemisphere": {
+        "Description": "Hemisphere(s) of the contacts per the DK brain_area labels (Left-/Right-/ctx-lh-/ctx-rh-) of electrodes.tsv; derived by counting, not stated by the authors",
+        "Source": "deposit derivatives/electrodes.tsv brain_area"
+    },
+    "soz_contacts": {
+        "Description": "Union over the subject's seizures of the consensus unequivocal-electrographic-onset channels (majority vote of 3-5 clinicians)",
+        "Source": "https://discover.pennsieve.io/datasets/530/version/3 files/DATA/annotations.tsv column ueo_consensus"
     }
 }

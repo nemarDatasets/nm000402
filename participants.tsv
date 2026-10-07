@@ -1,30 +1,30 @@
-participant_id	age	sex	mtle	unifocal	lesional	outcome	follow_up	duration	age_at_onset	n_seizures	n_stim_induced
-sub-HUP224	42.8	F	Yes	Yes	No	n/a	n/a	7.8	35	4	1
-sub-HUP225	n/a	M	No	Yes	No	1.1	0.92	n/a	n/a	4	1
-sub-HUP229	40.9	M	Yes	Yes	Yes	1.1	3.92	32.9	8	2	1
-sub-HUP230	51.5	F	Yes	Yes	Yes	1.1	1.92	31.5	20	4	1
-sub-HUP235	24.4	M	Yes	Yes	Yes	1.2	1.5	10.9	13.5	4	1
-sub-HUP238	35.3	F	Yes	Yes	No	2.1	2	18.3	17	4	1
-sub-HUP246	52.3	M	Yes	Yes	No	1.1	2.08	4.3	48	2	1
-sub-HUP247	47.1	F	No	Yes	Yes	2.1	1.75	40.1	7	4	1
-sub-HUP249	47.8	F	Yes	No	No	n/a	n/a	2.8	45	4	2
-sub-HUP250	31.6	F	No	No	No	n/a	n/a	13.6	18	4	1
-sub-HUP253	40.2	F	Yes	Yes	No	1.2	1	17.2	23	4	1
-sub-HUP257	24.7	M	Yes	Yes	No	n/a	n/a	2.7	22	4	1
-sub-HUP261	29.9	F	Yes	Yes	No	1.1	1.17	28.9	1	1	0
-sub-HUP263	52	F	Yes	Yes	No	1.1	1	11	41	3	1
-sub-HUP266	34.3	F	Yes	No	No	2.1	0.75	9.3	25	4	1
-sub-HUP267	21.3	M	Yes	No	No	n/a	n/a	2.3	19	2	1
-sub-HUP273	34.2	M	No	Yes	No	2.2	1	12.2	22	3	2
-sub-HUP275	58	M	No	No	No	2.1	0.92	9	49	3	2
-sub-HUP288	30.1	M	Yes	Yes	Yes	1.1	1.33	16.1	14	2	1
-sub-CHOP005	4.3	F	No	No	Yes	1.1	4.54	1.3	3	1	1
-sub-CHOP010	15.9	F	Yes	No	Yes	Device	n/a	2.9	13	1	1
-sub-CHOP024	19.1	F	No	Yes	Yes	Device	n/a	13.1	6	1	1
-sub-CHOP026	16.8	M	Yes	No	No	1.1	2.17	2.8	14	2	2
-sub-CHOP028	11.8	F	Yes	Yes	Yes	2.3	2.01	1.8	10	1	1
-sub-CHOP035	17.4	M	Yes	Yes	Yes	n/a	n/a	2.4	15	2	2
-sub-CHOP038	18.9	F	No	No	Yes	3.1	1.14	12.9	6	2	1
-sub-CHOP041	16.1	F	No	Yes	Yes	Device	n/a	7.1	9	2	1
-sub-CHOP046	19	F	No	No	No	Device	n/a	8	11	2	2
-sub-CHOP049	8.2	M	No	Yes	Yes	n/a	n/a	1.2	7	2	1
+participant_id	age	sex	mtle	unifocal	lesional	outcome	follow_up	duration	age_at_onset	n_seizures	n_stim_induced	diagnosis	implant_type	site	n_contacts	implanted_hemisphere	soz_contacts
+sub-HUP224	42.8	F	Yes	Yes	No	n/a	n/a	7.8	35	4	1	epilepsy	sEEG	HUP (adult)	232	bilateral	LA01;LA02;LA03;LA04;LB01;LB02;LB03;LB04;LC01;LC02;LC03;RB01;RB02;RB03;RC01;RC02;RC03
+sub-HUP225	n/a	M	No	Yes	No	1.1	0.92	n/a	n/a	4	1	epilepsy	sEEG	HUP (adult)	168	right	RA01;RA02;RA03;RB01;RB02;RB03;RB04;RT04;RT05
+sub-HUP229	40.9	M	Yes	Yes	Yes	1.1	3.92	32.9	8	2	1	epilepsy	sEEG	HUP (adult)	132	left	LB01;LB02;LC01;LC02;LG01;LG02;LG03
+sub-HUP230	51.5	F	Yes	Yes	Yes	1.1	1.92	31.5	20	4	1	epilepsy	sEEG	HUP (adult)	108	left	LB02;LC02;LC03
+sub-HUP235	24.4	M	Yes	Yes	Yes	1.2	1.5	10.9	13.5	4	1	epilepsy	sEEG	HUP (adult)	96	left	LA01;LA02;LA03;LB01;LB02;LB03;LB04;LC01;LC02;LC03;LI01;LI02;LI03
+sub-HUP238	35.3	F	Yes	Yes	No	2.1	2	18.3	17	4	1	epilepsy	sEEG	HUP (adult)	140	left	LB01;LB02;LC01;LC02;LC03
+sub-HUP246	52.3	M	Yes	Yes	No	1.1	2.08	4.3	48	2	1	epilepsy	sEEG	HUP (adult)	116	left	LA01;LA02;LA03;LA04;LB01;LB02;LB03;LC01;LC02;LC03
+sub-HUP247	47.1	F	No	Yes	Yes	2.1	1.75	40.1	7	4	1	epilepsy	sEEG	HUP (adult)	60	right	RP01;RP02;RP03;RV05;RV06;RW04;RW05;RW06
+sub-HUP249	47.8	F	Yes	No	No	n/a	n/a	2.8	45	4	2	epilepsy	sEEG	HUP (adult)	180	bilateral	LB01;LB02;RA01;RA02;RA03;RA07;RA08;RA09;RB01;RB02;RB09;RC01;RC02;RC07;RC08;RD02;RD03;RD04;RD05;RI03;RI04;RI05;RO03;RO04;RX11
+sub-HUP250	31.6	F	No	No	No	n/a	n/a	13.6	18	4	1	epilepsy	sEEG	HUP (adult)	172	bilateral	LA01;LB01;LB02;LB03;LB04;LC01;LC02;RB01;RB02;RB03
+sub-HUP253	40.2	F	Yes	Yes	No	1.2	1	17.2	23	4	1	epilepsy	sEEG	HUP (adult)	104	right	RB01;RB02;RB03;RC01;RC02
+sub-HUP257	24.7	M	Yes	Yes	No	n/a	n/a	2.7	22	4	1	epilepsy	sEEG	HUP (adult)	118	right	RA01;RA02;RA03;RB01;RB02;RB03;RB04;RC01;RC02;RC03
+sub-HUP261	29.9	F	Yes	Yes	No	1.1	1.17	28.9	1	1	0	epilepsy	sEEG	HUP (adult)	118	right	RA01;RA02;RB01;RB02
+sub-HUP263	52	F	Yes	Yes	No	1.1	1	11	41	3	1	epilepsy	sEEG	HUP (adult)	124	left	LA01;LA02;LA03;LB01;LB02;LC01;LC02;LC03;LD01;LD02;LE01;LE02
+sub-HUP266	34.3	F	Yes	No	No	2.1	0.75	9.3	25	4	1	epilepsy	sEEG	HUP (adult)	116	right	R2A04;R2A05;RC01;RC02;RC03;RU04;RU05;RU06;RU07
+sub-HUP267	21.3	M	Yes	No	No	n/a	n/a	2.3	19	2	1	epilepsy	sEEG	HUP (adult)	156	bilateral	LA01;LA02;LB01;LB02;LB03;LC01;LC02;LC03;LD01;LD02;LD03;LE01;LE02;LE03
+sub-HUP273	34.2	M	No	Yes	No	2.2	1	12.2	22	3	2	epilepsy	sEEG	HUP (adult)	186	bilateral	LB01;LB02;LB03;LB04;LC01;LC02;LC03;LC04;RA01;RA02;RB01;RB02;RC01;RC02;RC03;RD01;RD02;RD03;RD04;RD05;RD06;RI01
+sub-HUP275	58	M	No	No	No	2.1	0.92	9	49	3	2	epilepsy	sEEG	HUP (adult)	147	bilateral	LA01;LA02;LB01;LB02;LB03;LB04;LC01;LC02;RA01;RA02;RA03;RB01;RB02
+sub-HUP288	30.1	M	Yes	Yes	Yes	1.1	1.33	16.1	14	2	1	epilepsy	sEEG	HUP (adult)	152	right	RA01;RA02;RB01;RB02;RC01;RE01;RE02;RE03
+sub-CHOP005	4.3	F	No	No	Yes	1.1	4.54	1.3	3	1	1	epilepsy	sEEG	CHOP (pediatric)	186	left	LK01;LK02;LK03;LK04
+sub-CHOP010	15.9	F	Yes	No	Yes	Device	n/a	2.9	13	1	1	epilepsy	sEEG	CHOP (pediatric)	136	bilateral	RH02;RH03;RH04;RH05;RI02;RI03
+sub-CHOP024	19.1	F	No	Yes	Yes	Device	n/a	13.1	6	1	1	epilepsy	sEEG	CHOP (pediatric)	123	left	LE10;LF02;LF03;LF04;LF05
+sub-CHOP026	16.8	M	Yes	No	No	1.1	2.17	2.8	14	2	2	epilepsy	sEEG	CHOP (pediatric)	216	left	LB01;LB02;LM01;LM02;LM03;LM04;LN03;LO01;LO02;LO03
+sub-CHOP028	11.8	F	Yes	Yes	Yes	2.3	2.01	1.8	10	1	1	epilepsy	sEEG	CHOP (pediatric)	156	right	RB01;RB02;RC04;RC05;RC06;RC07;RD01;RD02;RD04;RE01;RE02;RE03;RE04;RG01;RG02;RG03
+sub-CHOP035	17.4	M	Yes	Yes	Yes	n/a	n/a	2.4	15	2	2	epilepsy	sEEG	CHOP (pediatric)	223	left	LF03;LG01;LG02;LG03;LG04;LL01;LL02;LL03;LL04;LL05;LM01;LM02;LM03;LM04;LM05;LN01;LN02;LN03;LN04;LN05
+sub-CHOP038	18.9	F	No	No	Yes	3.1	1.14	12.9	6	2	1	epilepsy	sEEG	CHOP (pediatric)	125	left	LA08;LA09;LA10;LA11;LA12;LB05;LB06;LE12;LE13;LI03;LI04;LI05;LI06;LI07;LI08
+sub-CHOP041	16.1	F	No	Yes	Yes	Device	n/a	7.1	9	2	1	epilepsy	sEEG	CHOP (pediatric)	209	left	LA04;LA05;LA06;LF01;LF02;LF03;LF04;LG02;LG03;LG04;LG05;LG06;LG07;LG08;LG09;LI02;LI03;LI04;LI05;LK03
+sub-CHOP046	19	F	No	No	No	Device	n/a	8	11	2	2	epilepsy	sEEG	CHOP (pediatric)	228	left	LB01;LB02;LB03;LD02;LD03;LD04;LE01;LE02;LE03;LE04;LJ02
+sub-CHOP049	8.2	M	No	Yes	Yes	n/a	n/a	1.2	7	2	1	epilepsy	sEEG	CHOP (pediatric)	183	left	LC01;LC02;LC03;LD06;LD07;LE09;LE10;LF01;LF02;LH06;LH07;LH08;LH09;LH10;LI12;LI13;LL01;LL02;LL03;LL04

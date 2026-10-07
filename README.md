@@ -61,3 +61,17 @@ Creative Commons Attribution 4.0 (CC-BY-4.0), as released by the authors.
 Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896
 
 Holdgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., … Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology. Scientific Data, 6, 102. https://doi.org/10.1038/s41597-019-0105-7
+
+## Additional metadata and localisation (added 2026-10-08)
+
+Compiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.
+
+**Stimulation.** HUP: bipolar, biphasic stimulation at 1 Hz, 3 mA, 300 µs (first 14 patients) or 500 µs pulse width; CHOP: 1–8 mA, 1–2 Hz, 300–500 µs (doi:10.64898/2026.01.15.26344025 (medRxiv, Ojemann et al. 2026), Methods). Per-seizure stim channels/parameters are in annotations.tsv (stim_channels, stim_frequency, stim_amplitude, stim_pulse_width).
+
+**Recording system.** Natus Quantum system, sampling rate 512–2048 Hz (doi:10.64898/2026.01.15.26344025 (medRxiv, Ojemann et al. 2026), Methods); the deposited EDFs are at 1024 Hz with channels.tsv low_cutoff 0.0 / high_cutoff 512.0 (deposit *_ieeg.json SamplingFrequency, *_channels.tsv). PowerLineFrequency, SoftwareFilters and Manufacturer are n/a in the sidecars.
+
+**Reference scheme.** Referenced to a contact hypothesised to be in non-epileptogenic tissue, typically medullary bone (doi:10.64898/2026.01.15.26344025 (medRxiv, Ojemann et al. 2026), Methods); iEEGReference is n/a in the deposit sidecars.
+
+**Electrode types.** sEEG depth electrodes; HUP: Ad-Tech (Oak Creek, WI); CHOP: PMT (MN, USA) or DIXI Medical (doi:10.64898/2026.01.15.26344025 (medRxiv, Ojemann et al. 2026), Methods).
+
+**Localisation method.** CHOP: post-implant CT co-registered to pre-implant MRI with Gardel, Desikan–Killiany (DK) atlas segmentation in FreeSurfer. HUP: iEEG-recon, contacts localised in pre-implant T1 space and MNI152 space, FreeSurfer DK parcellation (doi:10.64898/2026.01.15.26344025 (medRxiv, Ojemann et al. 2026), Methods "Electrode Localization"). The deposit gives per-subject `derivatives/electrodes.tsv`: CHOP files have voxel x/y/z + matter + DK brain_area; HUP files have mm_x/y/z, surfmm_x/y/z, vox_x/y/z, roi (FreeSurfer aseg/DK name) and roiNum. The MNI coordinates mentioned in the paper are **not** in the deposit; the mm coordinates are subject-native (deposit does not name the space).
