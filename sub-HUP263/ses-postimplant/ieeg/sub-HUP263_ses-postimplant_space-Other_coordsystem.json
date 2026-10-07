@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "Patient-native space ('native space', mm) of the authors' electrode localisation, columns mm_x/mm_y/mm_z of the release's electrodes table; the anatomical image is not part of the release. surfmm_* = FreeSurfer surface-RAS (tkrRAS), vox_* = voxel indices, roi = Desikan-Killiany ROI (authors' descriptions in the _electrodes.json)."
+}

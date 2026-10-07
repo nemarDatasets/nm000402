@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "Voxel indices (x, y, z) in the subject's image used by the authors for localisation ('X/Y/Z coordinate in voxel space' in the release's electrodes.json); the image is not part of the release, so the coordinates cannot be mapped to mm. matter = tissue class, brain_area = Desikan-Killiany ROI."
+}

@@ -1,0 +1,8 @@
+{
+  "matter": {
+    "Description": "Tissue localization of the electrode Levels as given by the authors: gray = grey matter; white = white matter; CSF = csf; unknown = unknown (values in the table may use other spellings, e.g. 'grey')."
+  },
+  "brain_area": {
+    "Description": "DK (Desikan-Killiany) atlas ROI"
+  }
+}

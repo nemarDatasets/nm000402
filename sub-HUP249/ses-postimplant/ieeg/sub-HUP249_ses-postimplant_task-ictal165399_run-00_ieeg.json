@@ -1,0 +1,18 @@
+{
+    "TaskName": "ictal165399",
+    "Manufacturer": "n/a",
+    "PowerLineFrequency": "n/a",
+    "SamplingFrequency": 1024.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 330.51953125,
+    "RecordingType": "continuous",
+    "iEEGReference": "n/a",
+    "ECOGChannelCount": 0,
+    "SEEGChannelCount": 178,
+    "EEGChannelCount": 0,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 0,
+    "TriggerChannelCount": 0
+}

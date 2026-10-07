@@ -1,0 +1,18 @@
+{
+    "TaskName": "stim4966",
+    "Manufacturer": "n/a",
+    "PowerLineFrequency": "n/a",
+    "SamplingFrequency": 512.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 539.908203125,
+    "RecordingType": "continuous",
+    "iEEGReference": "n/a",
+    "ECOGChannelCount": 0,
+    "SEEGChannelCount": 122,
+    "EEGChannelCount": 0,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 0,
+    "TriggerChannelCount": 0
+}

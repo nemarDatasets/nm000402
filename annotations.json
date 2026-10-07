@@ -1,0 +1,80 @@
+{
+    "patient": {
+        "Description": "Patient label identifying them as being from adult (HUP) or pediatric (CHOP) center"
+    },
+    "iEEG_ID": {
+        "Description": "File name on the cloud storage system iEEG.org"
+    },
+    "approximate_onset": {
+        "Description": "Reference time that clinicians had for approximately when the seizure started relative to implant",
+        "Units": "seconds"
+    },
+    "end": {
+        "Description": "Reference time for when the seizure ended relative to implant",
+        "Units": "seconds"
+    },
+    "clinician": {
+        "Description": "List containing three to five entries identifying the clinician(s) doing the annotation"
+    },
+    "stim": {
+        "Description": "Indicates whether the seizure was induced by electrical stimulation or spontaneously occurring",
+        "Levels": {
+            "Stim. Induced": "seizure induced by electrical stimulation",
+            "Spontaneous": "spontaneously occurring seizure"
+        },
+        "Notes": "The HUP249 seizure at approximate_onset = 439029.32 s was induced by a separate high-frequency stimulation protocol (not the low-frequency CCEP protocol used for the other stim-induced seizures). Its stim_frequency, stim_amplitude, and stim_pulse_width are therefore left blank because those parameters are unknown."
+    },
+    "stim_channels": {
+        "Description": "Channels where electrical stimulation was delivered (for stim-induced seizures)"
+    },
+    "stim_frequency": {
+        "Description": "Frequency of the electrical stimulation pulse train used to induce the seizure (blank for spontaneous seizures or when unknown)",
+        "Units": "Hz"
+    },
+    "stim_amplitude": {
+        "Description": "Current amplitude of the electrical stimulation used to induce the seizure (blank for spontaneous seizures or when unknown)",
+        "Units": "mA"
+    },
+    "stim_pulse_width": {
+        "Description": "Pulse width of each biphasic stimulation pulse used to induce the seizure (blank for spontaneous seizures or when unknown)",
+        "Units": "µs"
+    },
+    "ueo_time": {
+        "Description": "List containing three to five entries with the time in the file each clinician marked as ueo (unequivocal electrographic onset)",
+        "Units": "seconds"
+    },
+    "ueo_time_consensus": {
+        "Description": "Consensus ueo time via median of individual clinician annotations",
+        "Units": "seconds"
+    },
+    "ueo": {
+        "Description": "List containing three to five entries with the channels each clinician marked as seizing at onset"
+    },
+    "ueo_consensus": {
+        "Description": "Consensus channels marked as seizing at onset via majority voting of individual clinician annotations"
+    },
+    "sec": {
+        "Description": "List containing three to five entries with the channels each clinician marked as seizing 10 seconds after their determined onset time"
+    },
+    "sec_consensus": {
+        "Description": "Consensus channels marked as seizing 10 seconds after onset via majority voting of individual clinician annotations"
+    },
+    "semiology": {
+        "Description": "Label for stim seizures indicating if the stim seizure reproduced that patient's habitual spontaneous seizure semiology",
+        "Levels": {
+            "Typical": "stim seizure reproduced habitual spontaneous seizure semiology",
+            "Atypical": "stim seizure did not reproduce habitual spontaneous seizure semiology",
+            "Unknown": "semiology classification unavailable or seizure was spontaneous"
+        }
+    },
+    "run": {
+        "Description": "BIDS run number for cloud storage file"
+    },
+    "lvfa": {
+        "Description": "Whether low-voltage fast activity (LVFA) was present at electrographic onset, determined by visual review (EC) of the raw iEEG.",
+        "Levels": {
+            "yes": "seizure onset showed low-voltage fast activity",
+            "no": "seizure onset did not show low-voltage fast activity"
+        }
+    }
+}

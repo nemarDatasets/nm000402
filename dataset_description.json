@@ -1,0 +1,56 @@
+{
+    "Name": "Multi-Expert Seizure Annotation",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "William K. Ojemann",
+        "Daniel Zhou",
+        "Caren Armstrong",
+        "Nishant Sinha",
+        "Brian Litt",
+        "Erin Conrad"
+    ],
+    "Acknowledgements": "This dataset was prepared with the help of the Center for Neuroengineering and Therapeutics and the Children's Hospital of Philadelphia.",
+    "HowToAcknowledge": "Please cite this dataset using the information in the footer found on pennsieve.io and our manuscript: https://doi.org/10.64898/2026.01.15.26344025 Dataset DOI: https://doi.org/10.26275/dely-fzwx (Pennsieve Discover dataset 530, version 3).",
+    "Funding": [
+        "National Science Foundation Grant Graduate Research Fellowship DGE-1845298",
+        "National Institue of Neurological Disorders and Stroke of the National Institutes of Health K99NS138680",
+        "National Institue of Neurological Disorders and Stroke of the National Institutes of Health K23NS121401",
+        "National Institue of Neurological Disorders and Stroke of the National Institutes of Health R01NS125137",
+        "National Institue of Neurological Disorders and Stroke of the National Institutes of Health R01NS116504",
+        "National Institue of Neurological Disorders and Stroke of the National Institutes of Health DP1NS122038",
+        "National Institue of Neurological Disorders and Stroke of the National Institutes of Health T32NS091008;",
+        "The Burroughs Welcome Fund",
+        "The Small Lake Foundation",
+        "Neil and Barbara Smit",
+        "Bonnie and Jonathan Rothberg and Family"
+    ],
+    "EthicsApprovals": [
+        "University of Pennsylvania Human Research Protections Program, Institutional Review Boards (Protocol 703979, 811097, and/or 821778)"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.64898/2026.01.15.26344025",
+        "https://doi.org/10.26275/dely-fzwx",
+        "https://discover.pennsieve.io/datasets/530/version/3"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "MNE-BIDS",
+            "Version": "0.17.0",
+            "CodeURL": "https://mne.tools/mne-bids/"
+        }
+    ],
+    "Keywords": [
+        "epilepsy",
+        "seizures",
+        "intracranial",
+        "human",
+        "adult",
+        "pediatric",
+        "BIDS",
+        "sEEG",
+        "iEEG",
+        "stimulation"
+    ]
+}

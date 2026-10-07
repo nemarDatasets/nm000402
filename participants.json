@@ -1,0 +1,58 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age at implantation",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "mtle": {
+        "Description": "Binary variable indicating if spontaneous seizures originated from mesial-temporal structures (mesial temporal lobe epilepsy)",
+        "Levels": {
+            "Yes": "mesial temporal lobe epilepsy",
+            "No": "not mesial temporal lobe epilepsy"
+        }
+    },
+    "unifocal": {
+        "Description": "Binary yes/no describing whether clinical impression based on recorded spontaneous seizures was of a single focal epileptogenic zone (Yes) or distributed network (No)",
+        "Levels": {
+            "Yes": "single focal epileptogenic zone",
+            "No": "distributed network (diffuse or multiple focal onset zones)"
+        }
+    },
+    "lesional": {
+        "Description": "Indicates whether epileptogenic abnormalities were detected on pre-surgical imaging",
+        "Levels": {
+            "Yes": "lesional",
+            "No": "non-lesional"
+        }
+    },
+    "outcome": {
+        "Description": "Most recent available Engel score for post-surgical seizure outcome. Decimal values denote Engel subclasses (e.g., 1.1 = Engel IA, 1.2 = Engel IB). Patients treated with an implanted neurostimulation device rather than resective/ablative surgery are coded Device. Missing values are coded n/a. Integer part (Engel class): 1 = Engel I: free of disabling seizures; 2 = Engel II: rare disabling seizures; 3 = Engel III: worthwhile improvement; 4 = Engel IV: no worthwhile improvement; Device = treated with an implanted neurostimulation device; n/a = outcome data unavailable."
+    },
+    "follow_up": {
+        "Description": "Time after surgery at which the most recent available Engel score was assessed",
+        "Units": "years"
+    },
+    "duration": {
+        "Description": "Duration of epilepsy",
+        "Units": "years"
+    },
+    "age_at_onset": {
+        "Description": "Age at epilepsy onset",
+        "Units": "years"
+    },
+    "n_seizures": {
+        "Description": "Number of seizures included from that patient"
+    },
+    "n_stim_induced": {
+        "Description": "Number of seizures that were induced with low-frequency stimulation"
+    }
+}

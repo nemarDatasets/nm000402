@@ -1,0 +1,27 @@
+{
+    "Name": "Electrode localization (voxel space) from the Multi-Expert Seizure Annotation release",
+    "BIDSVersion": "1.10.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "William K. Ojemann",
+        "Daniel Zhou",
+        "Caren Armstrong",
+        "Nishant Sinha",
+        "Brian Litt",
+        "Erin Conrad"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "n/a",
+            "Description": "Electrode contact localisations provided by the data authors in the Pennsieve release (files/DATA/sub-*/derivatives/). The release does not describe the localisation pipeline; coordinates are in voxel space of the subject's (unreleased) image, tissue class in 'matter', Desikan-Killiany ROI in 'brain_area'."
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "doi:10.26275/dely-fzwx",
+            "URL": "https://discover.pennsieve.io/datasets/530/version/3",
+            "Version": "3"
+        }
+    ]
+}
