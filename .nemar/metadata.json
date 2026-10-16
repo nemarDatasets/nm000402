@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Ojemann-2026-multi-10.64898/2026.01.15.26344025",
+  "title": "Multi-Expert Seizure Annotation",
   "description": "Stereotactic EEG recordings of 78 seizures (44 spontaneous, 34 stimulation-induced) from 29 patients with drug-resistant epilepsy, recruited at the University of Pennsylvania and the Children's Hospital of Philadelphia. Three or five board-certified epileptologists independently annotated each seizure for onset time, onset channels, and channels seizing 10 seconds after onset, following a standardized protocol. The BIDS-formatted data include electrode localizations, patient demographics, and clinical outcomes. They support benchmarking of automated seizure onset and spread detection against expert consensus and comparison of spontaneous and stimulation-induced seizure networks.",
   "methods_description": "Recordings were acquired with a Natus Quantum system at 512-2048 Hz using sEEG depth electrodes (Ad-Tech at HUP; PMT or DIXI Medical at CHOP) and referenced to a contact in presumed non-epileptogenic tissue. Stimulation-induced seizures used bipolar biphasic stimulation (HUP: 1 Hz, 3 mA, 300 or 500 µs; CHOP: 1-8 mA, 1-2 Hz, 300-500 µs). Electrodes were localized by co-registering post-implant CT to pre-implant MRI, with Desikan-Killiany parcellation in FreeSurfer.",
   "license": "CC-BY-4.0",
@@ -174,5 +174,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "bd4da827088e9dd1f6b092fd3e9dd184d879ff7ceadfbf4079f329b088dccf01"
+  "source_hash": "3159c00cf36ba8a48f1ebbea8a4bab8cc9dc3c8ac23c03c7fc3e0846f2d697c0"
 }
