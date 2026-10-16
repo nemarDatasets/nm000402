@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Multi-Expert Seizure Annotation",
-  "description": "Stereotactic EEG recordings of 78 seizures (44 spontaneous, 34 stimulation-induced) from 29 patients with drug-resistant epilepsy, recruited at the University of Pennsylvania and the Children's Hospital of Philadelphia. Three or five board-certified epileptologists independently annotated each seizure for onset time, onset channels, and channels seizing 10 seconds after onset, following a standardized protocol. The BIDS-formatted data include electrode localizations, patient demographics, and clinical outcomes. They support benchmarking of automated seizure onset and spread detection against expert consensus and comparison of spontaneous and stimulation-induced seizure networks.",
-  "methods_description": "Recordings were acquired with a Natus Quantum system at 512-2048 Hz using sEEG depth electrodes (Ad-Tech at HUP; PMT or DIXI Medical at CHOP) and referenced to a contact in presumed non-epileptogenic tissue. Stimulation-induced seizures used bipolar biphasic stimulation (HUP: 1 Hz, 3 mA, 300 or 500 µs; CHOP: 1-8 mA, 1-2 Hz, 300-500 µs). Electrodes were localized by co-registering post-implant CT to pre-implant MRI, with Desikan-Killiany parcellation in FreeSurfer.",
+  "description": "This dataset provides stereotactic EEG (sEEG) recordings of 78 seizures (44 spontaneous, 34 stimulation-induced) from 29 patients with drug-resistant epilepsy, recruited at the University of Pennsylvania and the Children's Hospital of Philadelphia. Three or five board-certified epileptologists independently annotated each seizure for onset time, onset channels, and channels seizing 10 seconds after onset, using a standardized protocol. The data are organized in BIDS and include electrode localizations, patient demographics, and clinical outcomes. They serve as a benchmark for validating automated seizure onset and spread detection against expert consensus.",
+  "methods_description": "Recordings were acquired with a Natus Quantum system at 512-2048 Hz using sEEG depth electrodes (Ad-Tech at HUP; PMT or DIXI Medical at CHOP). Stimulation-induced seizures used bipolar biphasic stimulation. Electrodes were localized by co-registering post-implant CT to pre-implant MRI and parcellating with the Desikan-Killiany atlas in FreeSurfer. Each seizure was annotated independently by multiple epileptologists for unequivocal electrographic onset time and channels.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -67,17 +67,17 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
       "term": "Seizures",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
     },
     {
-      "term": "seizure annotation"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "seizure onset annotation"
     },
     {
       "term": "electrical stimulation"
@@ -156,6 +156,9 @@
     {
       "funder_name": "National Institute of Neurological Disorders and Stroke",
       "award_number": "T32NS091008"
+    },
+    {
+      "funder_name": "The Burroughs Wellcome Fund"
     }
   ],
   "resource_type_general": "Dataset",
