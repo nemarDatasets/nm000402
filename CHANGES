@@ -1,3 +1,7 @@
+1.0.3 2026-10-19
+  - channels.tsv units V -> µV for all 78 recordings (11488 rows), matching the EDF headers (physical dimension uV in every file); no EDF changed.
+  - sub-HUP238: 6 channel entries with 10-40% of their samples at the EDF digital minimum marked bad (ictal412267: Fp02, LB12, LF12, LU11, LU12; ictal465564: Fp02), 3 more noted (ictal290006, 2-4%). Values kept as released.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
