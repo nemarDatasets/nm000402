@@ -1,3 +1,10 @@
+Unreleased (Oct 2026)
+  - README: section 'Overlap with the IEEG.org recordings of the HUP patients' (12 clips of 4 patients are windows of their IEEG.org recordings; 10 checked on the signals).
+
+1.0.3 2026-10-30
+
+  - Note that four patients' clips are excerpts of portal recordings
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
