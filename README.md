@@ -77,3 +77,28 @@ Compiled after the upload from the article, its supplement and the source deposi
 **Electrode types.** sEEG depth electrodes; HUP: Ad-Tech (Oak Creek, WI); CHOP: PMT (MN, USA) or DIXI Medical (doi:10.64898/2026.01.15.26344025 (medRxiv, Ojemann et al. 2026), Methods).
 
 **Localisation method.** CHOP: post-implant CT co-registered to pre-implant MRI with Gardel, Desikan–Killiany (DK) atlas segmentation in FreeSurfer. HUP: iEEG-recon, contacts localised in pre-implant T1 space and MNI152 space, FreeSurfer DK parcellation (doi:10.64898/2026.01.15.26344025 (medRxiv, Ojemann et al. 2026), Methods "Electrode Localization"). The deposit gives per-subject `derivatives/electrodes.tsv`: CHOP files have voxel x/y/z + matter + DK brain_area; HUP files have mm_x/y/z, surfmm_x/y/z, vox_x/y/z, roi (FreeSurfer aseg/DK name) and roiNum. The MNI coordinates mentioned in the paper are **not** in the deposit; the mm coordinates are subject-native (deposit does not name the space).
+
+## Overlap with the IEEG.org recordings of the HUP patients (Oct 2026)
+
+The clips of sub-HUP263, sub-HUP266, sub-HUP267 and sub-HUP273 (12 recordings) are windows of these patients' full
+IEEG.org (IEEG Portal) recordings `HUP263_phaseII`, `HUP266_phaseII`, `HUP267_phaseII`/`HUP267b_phaseII` and
+`HUP273_phaseII`/`HUP273c_phaseII`. The number in each task label is the event time in seconds on the portal recording's
+time axis; each clip starts 120 s before it (the `onset` of its events.tsv row). Checked by reading each clip and the
+portal recording at that time (Oct 2026): 10 of the 12 clips were found within 1 s of the stated time, with the same
+amplitude scale and near-identical signals on every common channel:
+  - sub-HUP263 `task-ictal212899`: `HUP263_phaseII`, 123 of 124 channels, median |r| 0.9984, amplitude ratio 1.000
+  - sub-HUP263 `task-ictal272461`: `HUP263_phaseII`, 123 of 124 channels, median |r| 0.9986, amplitude ratio 1.000
+  - sub-HUP263 `task-stim89587`: `HUP263_phaseII`, 123 of 124 channels, median |r| 0.9997, amplitude ratio 1.000
+  - sub-HUP266 `task-ictal253214`: `HUP266_phaseII`, 115 of 115 channels, median |r| 0.9971, amplitude ratio 0.998
+  - sub-HUP266 `task-ictal301581`: `HUP266_phaseII`, 115 of 115 channels, median |r| 0.9997, amplitude ratio 1.000
+  - sub-HUP266 `task-ictal418859`: `HUP266_phaseII`, 115 of 115 channels, median |r| 0.9988, amplitude ratio 1.000
+  - sub-HUP266 `task-stim12508`: `HUP266_phaseII`, 115 of 115 channels, median |r| 0.9995, amplitude ratio 1.000
+  - sub-HUP267 `task-ictal49987`: `HUP267b_phaseII`, 158 of 162 channels, median |r| 0.9995, amplitude ratio 1.000
+  - sub-HUP267 `task-stim63986`: `HUP267_phaseII`, 158 of 162 channels, median |r| 0.9992, amplitude ratio 0.999
+  - sub-HUP273 `task-ictal233275`: `HUP273c_phaseII`, 186 of 192 channels, median |r| 1.0000, amplitude ratio 1.000
+  - sub-HUP273 `task-stim20467`: not compared (clip at 512 Hz, portal recording at another rate)
+  - sub-HUP273 `task-stim21077`: not compared (clip at 512 Hz, portal recording at another rate)
+The HUP273 ictal clip is identical to the portal recording (|r| > 0.999999 on all 186 common channels); for the others
+the small residual difference (median |r| 0.997-0.9997) was not traced further. An external review reported the same (clips start 120 s before the annotated onset). Anyone combining this
+dataset with the IEEG.org recordings of these four patients must count these seizures once. The other 25 participants
+(15 HUP, 10 CHOP) have no recording of the same patient code among the IEEG.org HUP/Penn datasets.
